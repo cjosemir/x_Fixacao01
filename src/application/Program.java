@@ -19,6 +19,9 @@ public class Program {
 		rectangle.width  = sc.nextDouble();
 		rectangle.height = sc.nextDouble();
 		
+		System.out.println("BOM DIA");
+		System.out.println("-------");
+		
 		System.out.printf("AREA = %.2f%n", rectangle.Area());
 		System.out.printf("PERIMETER = %.2f%n", rectangle.Perimeter());
 		System.out.printf("DIAGONAL = %.2f%n", rectangle.Diagonal());
